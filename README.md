@@ -111,7 +111,7 @@ Further, other hyperparameters such as learning rate, iteration number can be mo
 You can use the different configurations together (e.g using specific backbone and loss function together) by merging the respective config files, and use the new config file for training.
 
 #### Other modifications
-We also explore other architectural and training modifications in the vanilla Faster R-CNN detector, please refer to our [report](https://github.com/MUKhattak/OD-Satellite-iSAID/blob/OD_SatteliteImages/projects/OD_satellite_iSAID/technical_report.pdf) and [base config](https://github.com/MUKhattak/OD-Satellite-iSAID/blob/OD_SatteliteImages/projects/OD_satellite_iSAID/configs/Base-RCNN-FPN.yaml) file for additional details.
+We also explore other architectural and training modifications in the vanilla Faster R-CNN detector, please refer [base config](https://github.com/MUKhattak/OD-Satellite-iSAID/blob/OD_SatteliteImages/projects/OD_satellite_iSAID/configs/Base-RCNN-FPN.yaml) file for additional details.
 
 ### Evaluation
 To evaluate a trained model on the iSAID validation set, run the following command
@@ -119,9 +119,3 @@ To evaluate a trained model on the iSAID validation set, run the following comma
  $ python plain_train_net.py --config-file ./path/to/custom/config/file --eval-only --isaid-path /path/to/isaid/root/folder
 ```
 
-## Grounth-truth and prediction visualizations
-We also provide a jupyter notebook for visualizing the GT and predicted bounding boxes on respective images for qualitative results.
-Please refer to this path to view the notebook ```projects/OD_satellite_iSAID/Detectron2_Faster-RCNN_iSAID.ipynb``` (or click [here](https://github.com/MUKhattak/OD-Satellite-iSAID/blob/OD_SatteliteImages/projects/OD_satellite_iSAID/Detectron2_Faster-RCNN_iSAID.ipynb)).
-
-## References
-[1]Waqas Zamir, Syed, et al. "isaid: A large-scale dataset for instance segmentation in aerial images." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019.
