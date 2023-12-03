@@ -6,8 +6,8 @@ Object Detection (OD) in aerial images has gained much attention due to its appl
 
 This repository contains the code files for reproducing the main experiments mentioned in our project. Moreover, this repo supports the use of third party backbones to be integrated with the Faster R-CNN object detectors including SWIN, ConvNext and timm backbones.
 
-## Technical Report 
-Complete technical report can be viewed [here](https://github.com/MUKhattak/OD-Satellite-iSAID/blob/OD_SatteliteImages/projects/OD_satellite_iSAID/technical_report.pdf).
+## Paper Link 
+Paper can be viewed [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10121898).
 
 ## Requirements and Installation
 We have tested this code on Ubuntu 20.04 LTS with Python 3.8. This repo is heavily built on Detectron2. Follow the instructions below to setup the environment and install the dependencies.
